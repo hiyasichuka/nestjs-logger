@@ -3,7 +3,7 @@ runtime: nodejs14
 build:
   commands:
     build:
-      - npm install
+      - npm i --unsafe-perm
       - npm run build
 run:
   command: npm run start
